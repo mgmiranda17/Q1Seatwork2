@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q1 Exercise 4</title>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<body style="background-color: #f8c7fc; ">
+<h2>HTML FORMS</h2>
+<hr>
+<form action="">
+	<label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname" value=""><br>
+	<label for="lname">Last name:</label>
+		<input type="text" id="lname" name="lname" value=""><br>
+	<label for="birthday">Birthday:</label>
+		<input type="date" id="birthday" name="birthday"><br>
+	<label for="nationality">Nationality:</label>
+		<input type="text" id="nationality" name="nationality" value=""><br>
+
+<fieldset>
+	<legend>Account Information:</legend>
+	<label for="email">Email:</label>
+		<input type="email" id="email" name="email"><br><br>
+	<label for="password">Password:</label>
+		<input type="password" id="password" name="password"><br><br>
+</fieldset>
+
+<label for="fname">School last attended</label><br>
+	<input type="text" id="school" name="school" value="Previous School"><br>
+
+<h4>Grade/Level</h4>
+
+<input type="radio" id= "gr7" name="gr_section" value="gr7">
+	<label for="gr7">Grade 7</label><br>
+<input type="radio" id= "gr8" name="gr_section" value="gr8">
+	<label for="gr8">Grade 8</label><br>
+<input type="radio" id= "gr9" name="gr_section" value="gr9">
+	<label for="gr9">Grade 9</label><br>
+<input type="radio" id= "gr10" name="gr_section" value="gr10">
+	<label for="gr10">Grade 10</label><br><br>
+
+	<label for="strand">Preferred SHS Strand</label>
+	
+	<select id="strand" name="strand">
+		<option value="Acad">Academic Strand</option>
+		<option value="Arts">Arts and Design Track</option>
+		<option value="Sports">Sports Track</option>
+		<option value="Tech">Technical-Vocational-Livelihood (TVL) Track</option>
+	</select>
+	<br>
+	<input type="checkbox" id="strand1" name="strand1" value="ACADS">
+	<label for="strand1">Accountancy, Business and Management Strand</label><br>
+	<input type="checkbox" id="strand2" name="strand2" value="STEM">
+	<label for="strand2">Science, Technology, Engineering, and Mathematics (STEM) Strand</label><br>
+	<input type="checkbox" id="strand3" name="strand3" value="HUMSS">
+	<label for="strand3">Humanities and Social Science (HUMSS) Strand</label><br>
+	<input type="checkbox" id="strand4" name="strand4" value="GAS">
+	<label for="strand4">General Academic Strand (GAS)</label><br><br>
+
+	<h4>In 100 words, tell me something about yourself</h4>
+		<textarea name="message" rows="10" cols="30">Tell me something about yourself...
+		</textarea>
+		<br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+	</form>
+</body>
+</html>
